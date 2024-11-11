@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+body{
+    background-color: #021F31;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 45px;
+    color: #9DD1F1;
+
+}
+span{
+    color: #D00000;
+    border-bottom: 4px solid #D00000;
+}
+textarea{
+    margin: 1.7%;
+    width: 45vw;
+    height: 300px;
+    color: #bce0f7;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    resize: none;
+    background-color: #6874E8;
+    font-size: large;
+}
+textarea::placeholder{
+    font-size: x-large;
+    color: #bce0f7;
+    align-items: center;
+    
+}
+.real{
+    
+    width: 47vw;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+
+}
+button{
+    /* padding: 0px 30px 0 30px; */
+    width: 25%;
+    height: 100%;
+    background-color: #D00000;
+    color: #9DD1F1;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: large;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+button:active{
+    scale: 0.95;
+}
+.real button i{
+    font-size: small;
+    color: #9DD1F1;
+}
+.real select{
+    flex: 1;
+    height: 100%;
+    border-radius: 10px;
+    /* appearance: none; */
+
+}
+select{
+    background-color: #6874E8;
+    outline: none;
+    border: none;
+    font-size: large;
+    color: #021F31;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.95s ease;
+}
+select:active{
+    scale: 0.95;
+}
+
